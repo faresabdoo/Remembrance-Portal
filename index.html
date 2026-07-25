@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بوابة الطمأنينة | الأذكار اليومية الكاملة</title>
+    <title>بوابة الطمأنينة </title>
     <link rel="icon" type="image/png" href="https://www.svgrepo.com/show/317542/pray-night-islam.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zain:wght@300;400;700;900&display=swap" rel="stylesheet">
-    
+    <link rel="manifest.jsonmanifest" href="">
+<meta name="theme-color" content="#0f766e">
+<link rel="apple-touch-icon" href="https://www.svgrepo.com/show/317542/pray-night-islam.svg">
     <style>
         :root {
             /* Default: Exclusive Dark Mode (Group 16 + Group 2) */
@@ -1945,5 +1947,12 @@
             });
         }
     </script>
+    <script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js");
+  });
+}
+</script>
 </body>
 </html>
